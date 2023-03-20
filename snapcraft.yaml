@@ -1,4 +1,4 @@
-name: papirus
+name: icon-theme-papirus
 adopt-info: papirus
 base: bare
 build-base: core22
