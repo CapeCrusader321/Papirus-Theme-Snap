@@ -10,10 +10,6 @@ description: |
 grade: stable
 compression: lzo
 confinement: strict
-architectures:
-  - build-on: amd64
-    build-for: all
-
 
 slots:
   icon-themes:
