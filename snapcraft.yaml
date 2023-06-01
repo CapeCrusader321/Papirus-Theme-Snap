@@ -26,6 +26,9 @@ parts:
   papirus:
     source: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme.git
     plugin: make
+    build-packages:
+     - curl
+     - build-essential
     override-pull: |
      craftctl default
      craftctl set version=$(git describe --tags --abbrev=0) 
